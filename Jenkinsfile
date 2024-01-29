@@ -8,12 +8,15 @@ pipeline {
         }
 
         stage ("Build"){
-            echo "Realiando o build da apliação..."
+            steps{
+                echo "Realiando o build da apliação..."
+            }
         }
 
         stage ("Deploy para Produção"){
-            echo "Deploy realizado com sucesso."
+            steps{
+                echo "Deploy realizado com sucesso."
+            }
         }
-
     }
 }
