@@ -13,7 +13,7 @@ pipeline {
             }
         }
 
-        stage ("Deploy para Produção"){
+        stage ("Deploy para PROD"){
             steps{
                 echo "Deploy realizado com sucesso."
             }
