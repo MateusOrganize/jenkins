@@ -15,6 +15,7 @@ pipeline {
 
         stage ("Deploy para PROD"){
             steps{
+                snDevOpsChange()
                 echo "Deploy realizado com sucesso."
             }
         }
